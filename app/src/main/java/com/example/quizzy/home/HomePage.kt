@@ -144,9 +144,9 @@ fun HomePage(
                         contentDescription = "logout",
                         modifier = Modifier
                             .interaction {
-                                loginViewModel.loginUser()
+                                loginViewModel.logoutUser()
                             },
-                        tint = TextColorPrimary,
+                        tint = ColorRedAccuracy,
                     )
                 }
 
